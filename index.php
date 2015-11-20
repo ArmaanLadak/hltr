@@ -21,6 +21,21 @@
 body{
 	background:#0CD39A;
 }
+.navbar-default, .navbar-default .navbar-nav > li > a {
+    font-family: 'Montserrat', serif, arial;
+    font-size: 14px;
+    text-shadow: none;
+    text-transform: uppercase;
+    background:white;
+    color:black;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+.navbar-default .navbar-nav > li > a:hover{
+    color:#0CD39A;
+}
 </style>
 </head>
 
