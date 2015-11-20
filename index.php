@@ -38,7 +38,7 @@ body{
 			<div class="spacer10"></div>
 			<form action="search_result.php" method="get">
     				<div class="form-group">
-				<input type="text" class="form-control" name="search_keyword" id="search_keyword" style="height:45px" autofocus="autofocus" maxlength="120" placeholder="Search over 12 million books">
+				<input type="text" class="form-control" name="search_keyword" id="search_keyword" style="height:45px;-moz-border-radius: 5px;-webkit-border-radius: 5px;border-radius: 5px" autofocus="autofocus" maxlength="120" placeholder="Search over 12 million books">
     				</div>
     				<center><input type="submit" class="btn btn-default btn-large" value="Search"></center>
   			</form>
@@ -49,3 +49,5 @@ body{
 <div class="myFooter">
 	<?php include_once('footer.php'); ?>
 </div>	
+</body>
+</html>
