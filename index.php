@@ -16,8 +16,7 @@
 <script type="text/javascript" src="./js/jquery-1.7.1.min.js"></script>
 <script type="text/javascript" src="./js/bootstrap.min.js"></script>
 <link href='//fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
-<link href="//fonts.googleapis.com/css?family=RobotoDraft:100,300,400,500,700" rel=
-    "stylesheet">
+<link href="//fonts.googleapis.com/css?family=RobotoDraft:100,300,400,500,700" rel="stylesheet">
 <style>
 	background:#0CD39A;
 </style>
