@@ -34,7 +34,7 @@
         <li> <a href="http://www.howlongtoreadthis.com/index.php">Home</a></li>
         <li> <a href="http://howlongtoreadthis.com/howitworks.php">How It Works</a></li>
         <li> <a href="http://www.howlongtoreadthis.com/aboutus.php">About</a></li>
-				<li style="margin-right:10px"> <a href="http://www.howlongtoreadthis.com/contactus.php">Contact</a></li>
+	<li style="margin-right:10px"> <a href="http://www.howlongtoreadthis.com/contactus.php">Contact</a></li>
       </ul>
     </div>
   </div>
