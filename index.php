@@ -18,7 +18,9 @@
 <link href='//fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
 <link href="//fonts.googleapis.com/css?family=RobotoDraft:100,300,400,500,700" rel="stylesheet">
 <style>
+body{
 	background:#0CD39A;
+}
 </style>
 </head>
 
