@@ -9,10 +9,10 @@
 <meta name="description" content="Search over 12 million books and find your reading time for each one with How Long to Read.">
 <meta charset="UTF-8">
 <title>How Long to Read</title>
-<link rel="stylesheet" type="text/css" href="./css/bootstrap.css">
 <link rel="stylesheet" type="text/css" href="./css/stylesheet.css">
 <link rel="stylesheet" type="text/css" href="./css/bootstrap-responsive.css">
 <link rel="stylesheet" type="text/css" href="./css/theme-responsive.css">
+<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
 <script type="text/javascript" src="./js/jquery-1.7.1.min.js"></script>
 <script type="text/javascript" src="./js/bootstrap.min.js"></script>
 <link href='//fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
