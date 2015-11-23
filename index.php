@@ -13,16 +13,16 @@
 <link rel="stylesheet" type="text/css" href="./css/bootstrap-responsive.css">
 <link rel="stylesheet" type="text/css" href="./css/theme-responsive.css">
 <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-<script type="text/javascript" src="./js/jquery-1.7.1.min.js"></script>
-<script type="text/javascript" src="./js/bootstrap.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+ <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 <link href='//fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
 <link href="//fonts.googleapis.com/css?family=RobotoDraft:100,300,400,500,700" rel="stylesheet">
 <style>
 body{
-	background:#0CD39A;
+	background:#0CD39A
+	font-family: 'Montserrat', serif, arial;
 }
 .navbar-default, .navbar-default .navbar-nav > li > a {
-    font-family: 'Montserrat', serif, arial;
     font-size: 14px;
     text-shadow: none;
     text-transform: uppercase;
