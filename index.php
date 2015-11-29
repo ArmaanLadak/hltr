@@ -10,8 +10,8 @@
 <meta charset="UTF-8">
 <title>How Long to Read</title>
 <link rel="stylesheet" type="text/css" href="./css/stylesheet.css">
-<link rel="stylesheet" type="text/css" href="./css/bootstrap-responsive.css">
-<link rel="stylesheet" type="text/css" href="./css/theme-responsive.css">
+<!--<link rel="stylesheet" type="text/css" href="./css/bootstrap-responsive.css">
+<link rel="stylesheet" type="text/css" href="./css/theme-responsive.css">-->
 <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
@@ -61,8 +61,12 @@ body{
 		 </div>
 	</div>
 </div>
-<div class="myFooter">
+
+<div class="navbar navbar-fixed-bottom">
 	<?php include_once('footer.php'); ?>
+	
+</div>
+
 </div>	
 </body>
 </html>
