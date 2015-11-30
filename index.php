@@ -17,13 +17,27 @@
  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 <link href='//fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
 <link href="//fonts.googleapis.com/css?family=RobotoDraft:100,300,400,500,700" rel="stylesheet">
+<style>
+html, body {
+	height: 100%;
+}
+.wrapper {
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+	margin: 0 auto -60px;
+}
+.footer, .push {
+	height: 60px;
+}
+
+</style>
 </head>
 
-<body class="fs12 page-home ">
-<div id="page-container">
+<body>
+<div class="wrapper">
 <?php include_once('header.php'); ?>
 <?php include_once("analyticstracking.php") ?>
-</div>
 <div class="container" style="position: relative;top: 50%;transform: translateY(-50%)">
 	<div class="row-fluid" style="margin-bottom:20px; text-align:center;">
 		<div class="span12">
@@ -40,6 +54,8 @@
 			<div style="margin-top:60px;"> <p style="margin-top:20px;text-align:center">Search over 12 million books and find your reading time for each one.</p></div>
 		 </div>
 	</div>
+</div>
+<div class="push"></div>
 </div>
 
 <?php include_once('footer.php'); ?>
