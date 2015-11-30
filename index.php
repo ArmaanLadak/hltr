@@ -62,10 +62,7 @@ body{
 	</div>
 </div>
 
-<div class="navbar navbar-fixed-bottom">
-	<?php include_once('footer.php'); ?>
-	
-</div>
+<?php include_once('footer.php'); ?>
 
 </div>	
 </body>
