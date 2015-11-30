@@ -6,12 +6,12 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 <meta charset="UTF-8">
 <title>About Us</title>
-<link rel="stylesheet" type="text/css" href="http://www.howlongtoreadthis.com/css/stylesheet.css">
+<link rel="stylesheet" type="text/css" href="./css/stylesheet.css">
 <!--<link rel="stylesheet" type="text/css" href="http://www.howlongtoreadthis.com/css/bootstrap-responsive.css">
 <link rel="stylesheet" type="text/css" href="http://www.howlongtoreadthis.com/css/theme-responsive.css">-->
 <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-<script type="text/javascript" src="http://www.howlongtoreadthis.com/js/jquery-1.7.1.min.js"></script>
-<script type="text/javascript" src="http://www.howlongtoreadthis.com/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="./js/jquery-1.7.1.min.js"></script>
+<script type="text/javascript" src="./js/bootstrap.min.js"></script>
 <link href='//fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
 <link href="//fonts.googleapis.com/css?family=RobotoDraft:100,300,400,500,700" rel=
     "stylesheet">
