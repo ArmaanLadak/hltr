@@ -9,4 +9,4 @@
         	<span class='st_pinterest_hcount' displayText='Pinterest'></span>
         </div>
 </footer>
-</div
+</div>
