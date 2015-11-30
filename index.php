@@ -17,26 +17,6 @@
  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 <link href='//fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
 <link href="//fonts.googleapis.com/css?family=RobotoDraft:100,300,400,500,700" rel="stylesheet">
-<style>
-body{
-	background:#0CD39A
-	font-family: 'Montserrat', serif, arial;
-}
-.navbar-default, .navbar-default .navbar-nav > li > a {
-    font-size: 14px;
-    text-shadow: none;
-    text-transform: uppercase;
-    background:white;
-    color:black;
-    -webkit-transition: all 0.3s ease;
-    -moz-transition: all 0.3s ease;
-    -o-transition: all 0.3s ease;
-    transition: all 0.3s ease;
-}
-.navbar-default .navbar-nav > li > a:hover{
-    color:#0CD39A;
-}
-</style>
 </head>
 
 <body class="fs12 page-home ">
@@ -44,7 +24,7 @@ body{
 <?php include_once('header.php'); ?>
 <?php include_once("analyticstracking.php") ?>
 </div>
-<div class="container" >
+<div class="container" style="position: relative;top: 50%;transform: translateY(-50%)">
 	<div class="row-fluid" style="margin-bottom:20px; text-align:center;">
 		<div class="span12">
 			<img width="400px" src="images/logo.png">
