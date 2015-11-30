@@ -2,6 +2,10 @@ html {
 	overflow-y: scroll;
 	margin: 0;
 	padding: 0;
+	height:100%;
+}
+body{
+	height:100%;
 }
 body, td, th, input, textarea, select, a {
 	outline: 0 none;
@@ -3083,3 +3087,18 @@ body{
 .icon-button:hover .icon-google-plus {
   color: white;
 }
+
+.wrapper {
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+	margin: 0 auto -60px;
+}
+.footer, .push {
+	height: 60px;
+}
+@media (max-width: 600px) {
+   #credits {
+     display: none;
+   }
+ }
