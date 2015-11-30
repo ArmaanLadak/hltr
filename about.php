@@ -1,23 +1,41 @@
 <!DOCTYPE html>
 <html dir="ltr" lang="en" class="off-canvas">
 <head>
+<script type="text/javascript" src="http://w.sharethis.com/button/buttons.js"></script>
+<script type="text/javascript">stLight.options({publisher: "042fe7c8-61a0-432b-9f9a-3808a2ef5415", doNotHash: false, doNotCopy: false, hashAddressBar: false});</script>
 <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
 <link rel="icon" href="/favicon.ico" type="image/x-icon">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<meta name="description" content="Search over 12 million books and find your reading time for each one with How Long to Read.">
 <meta charset="UTF-8">
-<title>About Us</title>
+<title>How Long to Read</title>
 <link rel="stylesheet" type="text/css" href="./css/stylesheet.css">
-<!--<link rel="stylesheet" type="text/css" href="http://www.howlongtoreadthis.com/css/bootstrap-responsive.css">
-<link rel="stylesheet" type="text/css" href="http://www.howlongtoreadthis.com/css/theme-responsive.css">-->
+<!--<link rel="stylesheet" type="text/css" href="./css/bootstrap-responsive.css">
+<link rel="stylesheet" type="text/css" href="./css/theme-responsive.css">-->
 <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-<script type="text/javascript" src="./js/jquery-1.7.1.min.js"></script>
-<script type="text/javascript" src="./js/bootstrap.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+ <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 <link href='//fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
-<link href="//fonts.googleapis.com/css?family=RobotoDraft:100,300,400,500,700" rel=
-    "stylesheet">
-<link rel='stylesheet prefetch' href='http://netdna.bootstrapcdn.com/font-awesome/3.1.1/css/font-awesome.css'>
+<link href="//fonts.googleapis.com/css?family=RobotoDraft:100,300,400,500,700" rel="stylesheet">
+<style>
+html, body {
+	height: 100%;
+}
+.wrapper {
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+	margin: 0 auto -60px;
+}
+.footer, .push {
+	height: 60px;
+}
+
+</style>
 </head>
-<body class="fs12 page-home ">
+
+<body>
+<div class="wrapper">
 
 <?php include_once('header.php'); ?>
 
@@ -59,7 +77,8 @@ How Long to Read has been featured in Lifehacker.com, Yahoo! News, and other wel
    </div>
    </div>
    </div>
-
+</div>
+<div class="push"></div>
 <?php include_once('footer.php'); ?>
 </body>
 </html>
