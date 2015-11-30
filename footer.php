@@ -1,5 +1,5 @@
 <div class="navbar navbar-fixed-bottom">
-<footer class="footer" style="background:grey">
+<footer class="footer" style="background:DarkSlateGrey">
 	<div class="container">
 		<div class="copyright pull-left">  &copy; 2015. Developed by Alexander Thorburn-Winsor </div> 
 	<div class="pull-right">
