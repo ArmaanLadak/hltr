@@ -38,10 +38,12 @@ html, body {
 <div class="wrapper">
 <?php include_once('header.php'); ?>
 <?php include_once("analyticstracking.php") ?>
-<div class="container" style="position: relative;top: 50%;transform: translateY(-50%)">
+<div class="container">
 	<div class="row-fluid" style="margin-bottom:20px; text-align:center;">
 		<div class="span12">
-			<img width="400px" src="images/logo.png">
+
+			<img style="width:500px;height:auto;max-width:100%" src="http://www.howlongtoreadthis.com/images/logo.png">
+
 			<div class="spacer10"></div>
 			<h2 style="color:white;">How Long to Read</h2>
 			<div class="spacer10"></div>
@@ -63,3 +65,4 @@ html, body {
 </div>	
 </body>
 </html>
+
