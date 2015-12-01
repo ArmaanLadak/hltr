@@ -24,19 +24,19 @@
 
 <body>
 <div class="wrapper">
-<?php include_once('header.php'); ?>
-<?php include_once("analyticstracking.php") ?>
-<div class="container">
-	<div class="row-fluid" style="margin-bottom:20px; text-align:center;">
-		<div class="span12">
-			<img style="width:500px;height:auto;max-width:100%" src="http://www.howlongtoreadthis.com/images/logo.png">
-			<div class="spacer10"></div>
-			<h2 style="color:white;">How Long to Read</h2>
-			<div class="spacer10"></div>
+	<?php include_once('header.php'); ?>
+	<?php include_once("analyticstracking.php") ?>
+	<div class="container">
+		<div class="row-fluid" style="margin-bottom:20px; text-align:center;">
+			<div class="span12">
+				<img style="width:500px;height:auto;max-width:100%" src="http://www.howlongtoreadthis.com/images/logo.png">
+				<div class="spacer10"></div>
+				<h2 style="color:white;">How Long to Read</h2>
+				<div class="spacer10"></div>
 				<form action="search_result.php" method="get">
-				<div class="form-group">
-					<input type="text" class="form-control" name="search_keyword" id="search_keyword" style="height:45px;-moz-border-radius: 5px;-webkit-border-radius: 5px;border-radius: 5px" autofocus="autofocus" maxlength="120" placeholder="Search over 12 million books">
-			        </div>
+					<div class="form-group">
+						<input type="text" class="form-control" name="search_keyword" id="search_keyword" style="height:45px;-moz-border-radius: 5px;-webkit-border-radius: 5px;border-radius: 5px" autofocus="autofocus" maxlength="120" placeholder="Search over 12 million books">
+					</div>
 					<center><input type="submit" class="btn btn-default btn-large" value="Search"></center>
 				</form>
 				<div style="margin-top:60px;"> 
@@ -44,8 +44,8 @@
 				</div>
 			</div>
 		</div>
-		<div class="push"></div>
 	</div>
+	<div class="push"></div>
 </div>
 <?php include_once('footer.php'); ?>
 </body>
