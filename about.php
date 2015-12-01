@@ -18,7 +18,7 @@
 </head>
 
 <body>
-<div class="wrapper">
+<div class="wrapper" style="margin-bottom:1px">
 	<?php include_once('header.php'); ?>
 	<div class="container">
 		<h1 style="color:white">About Us</h1>
