@@ -47,54 +47,22 @@ if(isset($_GET['search_keyword'])){
 <link rel="icon" href="/favicon.ico" type="image/x-icon">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 <meta charset="UTF-8">
-<title>Book</title>
-<link rel="stylesheet" type="text/css" href="./css/bootstrap.css">
-<link rel="stylesheet" type="text/css" href="./css/stylesheet.css">
-<link rel="stylesheet" type="text/css" href="./css/bootstrap-responsive.css">
-<link rel="stylesheet" type="text/css" href="./css/theme-responsive.css">
-<script type="text/javascript" src="./js/jquery-1.7.1.min.js"></script>
-<script type="text/javascript" src="./js/bootstrap.min.js"></script>
+<title>Search Results</title>
+
+<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 <link href='//fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
-<script type="text/javascript">
-    $(function () {
-      $(document).ready(function(){
-        var Size = screen.height;
-			if(Size == 600)
-				{
-					  $(".mid_container").css('min-height',1000);
-				}
-			if(Size == 768)
-				{
-					  $(".mid_container").css('min-height',1000);
-				}
-			if(Size == 800)
-				{
-					  $(".mid_container").css('min-height',1000);
-				}
-			if(Size == 832)
-				{
-					  $(".mid_container").css('min-height',1000);
-				}	
-			if(Size == 900)
-				{
-					  $(".mid_container").css('min-height',1000);
-				}	
-			if(Size == 1050)
-				{
-					  $(".mid_container").css('min-height',1300);
-				}
-			if(Size == 1080)
-				{
-					  $(".mid_container").css('min-height',982);
-				}	
-				
-      });
-    });
-  </script>
+<link href="//fonts.googleapis.com/css?family=RobotoDraft:100,300,400,500,700" rel=
+    "stylesheet">
+<link rel='stylesheet prefetch' href='http://netdna.bootstrapcdn.com/font-awesome/3.1.1/css/font-awesome.css'>
+<link rel="stylesheet" type="text/css" href="./css/newstyles.css">
+
 <style>.btn-primary { padding: 4px 15px; } </style>
 </head>
-<body class="fs12 page-home ">
-<div id="page-container">
+
+<body>
+<div class="wrapper" style="margin-bottom:1px">
 	<?php include_once('header.php'); ?>
 	<header id="header">
 		<div id="headerbottom">
@@ -136,8 +104,7 @@ if(isset($_GET['search_keyword'])){
 				</div>
 			</div>
 		</div>
-  </header>
-</div>
+	</header>
 
 <section style="background-image:url(Pav%20Decor_files/bg04.png); background-repeat:repeat;" class="pav-showcase mid_container" id="columns">
 	<div class="container">
