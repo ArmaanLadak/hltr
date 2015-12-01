@@ -9,15 +9,18 @@
 <meta name="description" content="Search over 12 million books and find your reading time for each one with How Long to Read.">
 <meta charset="UTF-8">
 <title>How Long to Read</title>
-<link rel="stylesheet" type="text/css" href="./css/stylesheet.css">
-<!--<link rel="stylesheet" type="text/css" href="./css/bootstrap-responsive.css">
-<link rel="stylesheet" type="text/css" href="./css/theme-responsive.css">-->
+
 <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
- <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 <link href='//fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
-<link href="//fonts.googleapis.com/css?family=RobotoDraft:100,300,400,500,700" rel="stylesheet">
+<link href="//fonts.googleapis.com/css?family=RobotoDraft:100,300,400,500,700" rel=
+    "stylesheet">
+<link rel='stylesheet prefetch' href='http://netdna.bootstrapcdn.com/font-awesome/3.1.1/css/font-awesome.css'>
+<link rel="stylesheet" type="text/css" href="./css/newstyles.css">
+
 </head>
+
 
 <body>
 <div class="wrapper">
@@ -30,19 +33,19 @@
 			<div class="spacer10"></div>
 			<h2 style="color:white;">How Long to Read</h2>
 			<div class="spacer10"></div>
-			<form action="search_result.php" method="get">
-    				<div class="form-group">
+				<form action="search_result.php" method="get">
+				<div class="form-group">
 					<input type="text" class="form-control" name="search_keyword" id="search_keyword" style="height:45px;-moz-border-radius: 5px;-webkit-border-radius: 5px;border-radius: 5px" autofocus="autofocus" maxlength="120" placeholder="Search over 12 million books">
-    				</div>
-    				<center><input type="submit" class="btn btn-default btn-large" value="Search"></center>
-  			</form>
-			<div style="margin-top:60px;"> 
-				<p style="margin-top:20px;text-align:center">Search over 12 million books and find your reading time for each one.</p></div>
-		 	</div>
+			        </div>
+					<center><input type="submit" class="btn btn-default btn-large" value="Search"></center>
+				</form>
+				<div style="margin-top:60px;"> 
+					<p style="margin-top:20px;text-align:center">Search over 12 million books and find your reading time for each one.</p></div>
+				</div>
+			</div>
 		</div>
+		<div class="push"></div>
 	</div>
-	<div class="push"></div>
-</div>
 </div>
 <?php include_once('footer.php'); ?>
 </body>
