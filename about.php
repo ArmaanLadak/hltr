@@ -20,7 +20,7 @@
 <body>
 <div class="wrapper">
 	<?php include_once('header.php'); ?>
-	<div class="container" >
+	<div class="container" style="margin-bottom:25px">
 		<h1 style="color:white">About Us</h1>
 		<br>
 		<div class="well well-lg">
