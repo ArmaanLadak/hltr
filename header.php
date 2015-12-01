@@ -1,7 +1,7 @@
 <nav class="navbar navbar-default navbar-static-top" style="margin:0px;border:none">
 	<div class="container-fluid"  style="max-width:1100px">
 		<div class="navbar-header">
-			<a style="margin-left:10px" class="navbar-brand" href="http://www.howlongtoreadthis.com/index.php"><img width="34px" src="images/dwelling1.png"></a>
+			<a style="margin-left:10px" class="navbar-brand" href="./index.php"><img width="34px" src="images/dwelling1.png"></a>
 			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
 				<span class="icon-bar"></span>
 				<span class="icon-bar"></span>
