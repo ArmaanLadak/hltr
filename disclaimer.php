@@ -22,18 +22,12 @@
 <div class="wrapper">
 <?php include_once('header.php'); ?>
 	<div class="container" >
-		<div class="row-fluid" style="margin-bottom:20px; min-height:500px;">
-			<div class="span12">
-				<h1 style="color:white">Disclaimer</h1>
-				<div class="span12 title">
-					<br>
-					<div class="well well-small">
-						<p style="text-align:justify;font-size:14px; color:#34495e; line-height:2">
-						How Long to Read makes money by providing links to buy books on Amazon and from other booksellers. When you want to buy a book that you've seen on our website and click on an Amazon link, we get a small commission if you buy the book, and it costs you nothing extra. This helps us keep the site up and running, and makes sure that we never have to sell your data to advertisers, along with providing easy access to the best prices on the web to buy books.
-						</p>
-					</div>
-				</div>
-			</div>
+		<h1 style="color:white">Disclaimer</h1>
+		<br>
+		<div class="well well-lg">
+			<p style="text-align:justify;font-size:14px; color:#34495e; line-height:2">
+			How Long to Read makes money by providing links to buy books on Amazon and from other booksellers. When you want to buy a book that you've seen on our website and click on an Amazon link, we get a small commission if you buy the book, and it costs you nothing extra. This helps us keep the site up and running, and makes sure that we never have to sell your data to advertisers, along with providing easy access to the best prices on the web to buy books.
+			</p>
 		</div>
 	</div>
 	<div class="push"></div>
