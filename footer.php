@@ -6,4 +6,3 @@
 		<a style="text-decoration:none;margin-top:10px" href="https://www.facebook.com/sharer/sharer.php?u=http://www.howlongtoreadthis.com" class="icon-button facebook"><i class="icon-facebook"></i><span></span></a>
         </div>
 </div>
-
