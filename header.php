@@ -31,10 +31,10 @@
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav navbar-right">
-        <li> <a href="http://www.howlongtoreadthis.com/index.php">Home</a></li>
-        <li> <a href="http://howlongtoreadthis.com/howitworks.php">How It Works</a></li>
-        <li> <a href="http://www.howlongtoreadthis.com/aboutus.php">About</a></li>
-	<li style="margin-right:10px"> <a href="http://www.howlongtoreadthis.com/contactus.php">Contact</a></li>
+        <li> <a href="./index.php">Home</a></li>
+        <li> <a href="./howitworks.php">How It Works</a></li>
+        <li> <a href="./aboutus.php">About</a></li>
+	<li style="margin-right:10px"> <a href="./contactus.php">Contact</a></li>
       </ul>
     </div>
   </div>
