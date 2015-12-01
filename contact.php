@@ -46,12 +46,12 @@ if(isset($_POST['submit'])){
 			   <div class="span12">
 				<h1 style="color:white">Contact Us</h1>
 				<div class="span12 title">
-					<?php
+					<div class="alert alert-success"><?php
 						if(isset($_SESSION['sent_mail'])){
 							echo($_SESSION['sent_mail'].'<br>');
 							unset($_SESSION['sent_mail']);
 						}
-					?>
+					?></div>
 					<br>
 					<div class="alert alert-warning">If you have any questions/comments about the site or would like to partner with us please contact us using the form below.</div>
 					<form action="<?php echo $_SERVER['PHP_SELF']; ?>" method="post">
