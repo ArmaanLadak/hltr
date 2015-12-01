@@ -2026,6 +2026,38 @@ color:#5C5B5B;
 #off-canvas-nav .megamenu .mega-col .margin {
 	margin-left: 0;
 }
+#pav-mass-bottom .container {
+	 background: url(../image/default/bg-section.jpg) repeat left top scroll;
+	 height: 70px;
+	 color: #fff;
+	 margin-bottom: 15px;
+} 
+#pav-mass-bottom .box {
+	margin-bottom: 0;
+}
+
+/*pavgallery*/
+.pavgallery a {
+	float: left;
+	margin: 0 3px 5px;
+}
+
+.zoomWindowContainer .zoomWindow {
+	 border: 4px solid #DCDBDB!important;
+}
+
+.pav-showcase .container {
+	 padding-top: 30px;
+}
+
+.off-canvas body > *, #off-canvas-nav .pavo-mainnav  {
+	transition:all 500ms ease 0s;
+	/*background:#01b08c;*/
+}
+.mid_container{
+	background:#01b08c;
+	min-height:542px;
+}
 .image img{
 	background:url(../images/not-found.png) no-repeat;
 	width:200px; 
