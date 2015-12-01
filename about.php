@@ -23,7 +23,7 @@
 	<div class="container" >
 		<div class="row-fluid" style="margin-bottom:20px; min-height:500px;">
 			<div class="span12">
-				<h2 style="color:white;">About Us</h2>
+				<h1 style="color:white">About Us</h1>
 				<div class="span12 title">
 					<br>
 					<div class="well well-small">
