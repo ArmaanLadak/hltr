@@ -70,45 +70,38 @@ if(isset($_GET['search_keyword'])){
 		if(isset($_GET['search_keyword'])){
 			$i	=	0;
 			if(!empty($objResult)){
+				?><div class="row"><?php
 				foreach($objResult as $arrBooksInfo){ //print_r($arrBooksInfo);
 					if($i%3 == 0){ ?>
 						<br>
 					<?php	} ?>
 					<a href="book_details.php?asin=<?php echo ((string)$arrBooksInfo->ASIN); ?>&ean=<?php echo ((string)$arrBooksInfo->ItemAttributes->EAN); ?>">
-						<div class="row">
-							<div class="col-xs-6 col-sm-4">
-								<div class="well well-small">
-									<img src="<?php echo $arrBooksInfo->LargeImage->URL; ?>" />
-									<h4><?php echo $arrBooksInfo->ItemAttributes->Title; ?></h4>
+							<div class="col-sm-4">
+								<div class="well well-small" style="height:550px">
+									<center><img class="img-responsive" style="max-height:70%" src="<?php echo $arrBooksInfo->LargeImage->URL; ?>" /></center>
+									<h4>
+										<?php if(strlen($arrBooksInfo->ItemAttributes->Title)<70){
+											echo $arrBooksInfo->ItemAttributes->Title;
+										}
+										else{
+											echo substr(($arrBooksInfo->ItemAttributes->Title), 0, 67)."...";
+										}?>
+									</h4>
 									<div class="clearfix"></div>
-										<div class="pull-left">
-										Author:
-										</div>
-										<div class="pull-right"><?php echo $arrBooksInfo->ItemAttributes->Author; ?></div>
-									<div class="clearfix"></div>
-										<div class="pull-left">
-										Pages:
-										</div>
-										<div class="pull-right"><?php echo $arrBooksInfo->ItemAttributes->NumberOfPages; ?></div>
-									<div class="clearfix"></div>
-										<div class="pull-left">
-										Words (Approximate):
-										</div>
-										<div class="pull-right"><?php echo $arrBooksInfo->ItemAttributes->NumberOfPages * 255; ?></div>
-									<div class="clearfix"></div>
-									<p style="float:left; margin-right:10px;font-weight:bold;"> 
-										<?php echo ($arrBooksInfo->ItemAttributes->ListPrice->FormattedPrice != '')? $arrBooksInfo->ItemAttributes->ListPrice->FormattedPrice:'0.00'; ?> 
-									</p>
+										<p>Author: <?php echo $arrBooksInfo->ItemAttributes->Author; ?>
+										<br>Pages: <?php echo $arrBooksInfo->ItemAttributes->NumberOfPages; ?>
+										<br>Words (Approximate): <?php echo $arrBooksInfo->ItemAttributes->NumberOfPages * 255; ?>
+										<p style="float:left;font-weight:bold;"><?php echo ($arrBooksInfo->ItemAttributes->ListPrice->FormattedPrice != '')? $arrBooksInfo->ItemAttributes->ListPrice->FormattedPrice:'0.00'; ?> 
 								</div>
 							</div>
-						</div>
 					</a>
 					<?php
 					$i++;
 				}
+				?></div><?php
 			}
 			else{
-					echo '<div class="alert alert-danger" role="alert">
+					echo '<div class="alert alert-danger" role="alert" style="margin-top:40px">
 					<span class="glyphicon glyphicon-exclamation-sign" aria-hidden="true"></span>
 					<span class="sr-only"><b>Error:</b></span>
 					No books were found that matched your search. Make sure you typed the title correctly. If you\'re seeing this often, it means the site is under heavy load and the server is not responding properly.
