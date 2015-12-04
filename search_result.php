@@ -75,36 +75,30 @@ if(isset($_GET['search_keyword'])){
 						<br>
 					<?php	} ?>
 					<a href="book_details.php?asin=<?php echo ((string)$arrBooksInfo->ASIN); ?>&ean=<?php echo ((string)$arrBooksInfo->ItemAttributes->EAN); ?>">
-						<div class="col-sm-4" style="background:white;border: 5px solid green">
-							<div class="col-sm-4" style="padding:8px;text-align:center">
-								<img src="<?php echo $arrBooksInfo->LargeImage->URL; ?>" />
-							</div>
-							<div class="col-sm-4">
-								<h4><?php echo $arrBooksInfo->ItemAttributes->Title; ?></h4>
-								<div class="clearfix"></div>
-								<div class="col-sm-4">
-									<div class="pull-left">
-									Author:
-									</div>
-									<div class="pull-right"><?php echo $arrBooksInfo->ItemAttributes->Author; ?></div>
-								</div>
-								<div class="clearfix"></div>
-								<div class="col-sm-4">
-									<div class="pull-left">
-									Pages:
-									</div>
-									<div class="pull-right"><?php echo $arrBooksInfo->ItemAttributes->NumberOfPages; ?></div>
-								</div>
-								<div class="clearfix"></div>
-								<div class="col-sm-4">
-									<div class="pull-left">
-									Words (Approximate):
-									</div>
-									<div class="pull-right"><?php echo $arrBooksInfo->ItemAttributes->NumberOfPages * 255; ?></div>
-								</div>
-								<div class="clearfix"></div>
-								<div class="col-sm-4" style="float:left; margin-right:10px;font-weight:bold;"> 
-									<?php echo ($arrBooksInfo->ItemAttributes->ListPrice->FormattedPrice != '')? $arrBooksInfo->ItemAttributes->ListPrice->FormattedPrice:'0.00'; ?> 
+						<div class="row">
+							<div class="col-xs-6 col-sm-4">
+								<div class="well well-small">
+									<img src="<?php echo $arrBooksInfo->LargeImage->URL; ?>" />
+									<h4><?php echo $arrBooksInfo->ItemAttributes->Title; ?></h4>
+									<div class="clearfix"></div>
+										<div class="pull-left">
+										Author:
+										</div>
+										<div class="pull-right"><?php echo $arrBooksInfo->ItemAttributes->Author; ?></div>
+									<div class="clearfix"></div>
+										<div class="pull-left">
+										Pages:
+										</div>
+										<div class="pull-right"><?php echo $arrBooksInfo->ItemAttributes->NumberOfPages; ?></div>
+									<div class="clearfix"></div>
+										<div class="pull-left">
+										Words (Approximate):
+										</div>
+										<div class="pull-right"><?php echo $arrBooksInfo->ItemAttributes->NumberOfPages * 255; ?></div>
+									<div class="clearfix"></div>
+									<p style="float:left; margin-right:10px;font-weight:bold;"> 
+										<?php echo ($arrBooksInfo->ItemAttributes->ListPrice->FormattedPrice != '')? $arrBooksInfo->ItemAttributes->ListPrice->FormattedPrice:'0.00'; ?> 
+									</p>
 								</div>
 							</div>
 						</div>
