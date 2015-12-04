@@ -108,3 +108,17 @@ height: 100%;
 .footer, .push {
  height: 60px;
 }
+.wrapper-details {
+ min-height: 100%;
+ height: auto !important;
+ height: 100%;
+ margin: 0 auto -170px;
+}
+.footer-details, .push-details {
+ height: 170px;
+}
+@media (max-width: 600px) {
+   #credits {
+     display: none;
+   }
+ }
