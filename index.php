@@ -44,6 +44,7 @@
 				</div>
 			</div>
 		</div>
+		<div class="push"></div>
 	</div>
 </div>
 <?php include_once('footer.php'); ?>
