@@ -50,7 +50,6 @@
 			<a href="http://www.brit.co/how-long-to-read-this-website/" target="_blank"><img src="/britLogo.png" width="100" hspace="20" vspace="10"></a>
 		</div>
 	</div>
-	<div class="push"></div>
 </div>
 <?php include_once('footer.php'); ?>
 </body>
