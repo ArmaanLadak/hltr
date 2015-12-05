@@ -2,6 +2,23 @@ body{
 	background:#0CD39A;
 	font-family: 'Montserrat', serif, arial;
 }
+.banner p {
+	font-size: 13.5pt;
+	color:#fff;
+    font-weight: 200;
+    line-height: 1.25em;
+    margin: 0 0 1em;
+    padding-right: 1em;
+    text-align: center;
+}
+.banner div {
+	text-align: center;
+	width: 100%;
+	display: none;
+}
+.banner a {
+    font-size: 13.5pt;
+}
 .navbar-default, .navbar-default .navbar-nav > li > a {
     font-size: 14px;
     text-shadow: none;
@@ -13,7 +30,14 @@ body{
     -o-transition: all 0.3s ease;
     transition: all 0.3s ease;
 }
-.navbar-default .navbar-nav > li > a:hover{
+a.turns-green{
+	-webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+.navbar-default .navbar-nav > li > a:hover, a.turns-green:hover{
+	text-decoration: none;
     color:#0CD39A;
 }
 /* Wrapper */
