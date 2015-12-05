@@ -29,8 +29,8 @@
 			How Long to Read makes money by providing links to buy books on Amazon and from other booksellers. When you want to buy a book that you've seen on our website and click on an Amazon link, we get a small commission if you buy the book, and it costs you nothing extra. This helps us keep the site up and running, and makes sure that we never have to sell your data to advertisers, along with providing easy access to the best prices on the web to buy books.
 			</p>
 		</div>
+		<div class="push"></div>
 	</div>
-	<div class="push"></div>
 </div>
 <?php include_once('footer.php'); ?>
 </body>
