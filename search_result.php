@@ -78,7 +78,7 @@ if(isset($_GET['search_keyword'])){
 					<a href="book_details.php?asin=<?php echo ((string)$arrBooksInfo->ASIN); ?>&ean=<?php echo ((string)$arrBooksInfo->ItemAttributes->EAN); ?>">
 							<div class="col-sm-4">
 								<div class="well well-small" style="height:550px">
-									<center><img class="img-responsive" style="max-height:70%;max-height:55vh" src="<?php echo $arrBooksInfo->LargeImage->URL; ?>" /></center>
+									<center><img class="img-responsive" style="max-height:350px;" src="<?php echo $arrBooksInfo->LargeImage->URL; ?>" /></center>
 									<h4>
 										<?php if(strlen($arrBooksInfo->ItemAttributes->Title)<70){
 											echo $arrBooksInfo->ItemAttributes->Title;
@@ -88,10 +88,10 @@ if(isset($_GET['search_keyword'])){
 										}?>
 									</h4>
 									<div class="clearfix"></div>
-										<p>Author: <?php echo $arrBooksInfo->ItemAttributes->Author; ?>
-										<br>Pages: <?php echo $arrBooksInfo->ItemAttributes->NumberOfPages; ?>
-										<br>Words (Approximate): <?php echo $arrBooksInfo->ItemAttributes->NumberOfPages * 255; ?>
-										<p style="float:left;font-weight:bold;"><?php echo ($arrBooksInfo->ItemAttributes->ListPrice->FormattedPrice != '')? $arrBooksInfo->ItemAttributes->ListPrice->FormattedPrice:'0.00'; ?> 
+									<p>Author: <?php echo $arrBooksInfo->ItemAttributes->Author; ?>
+									<br>Pages: <?php echo $arrBooksInfo->ItemAttributes->NumberOfPages; ?>
+									<br>Words (Approximate): <?php echo $arrBooksInfo->ItemAttributes->NumberOfPages * 255; ?>
+									<p style="float:left;font-weight:bold;"><?php echo ($arrBooksInfo->ItemAttributes->ListPrice->FormattedPrice != '')? $arrBooksInfo->ItemAttributes->ListPrice->FormattedPrice:'0.00'; ?> 
 								</div>
 							</div>
 					</a>
@@ -147,8 +147,8 @@ if(isset($_GET['search_keyword'])){
 				}
 			echo'</div>';
 		} ?>
+		<div class="push"></div>
 	</div>
-	<div class="push"></div>
 </div>
 <?php include_once('footer.php'); ?>
 
