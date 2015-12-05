@@ -13,5 +13,5 @@
 	    <div class="pull-right">
 	    	<a style="color:grey;" href="http://www.howlongtoreadthis.com/disclaimer.php">Disclaimer</a>
 	    </div>
-    </div>
+    	</div>
 </div>
