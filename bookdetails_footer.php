@@ -11,7 +11,7 @@
 	<div class="container" style="overflow:hidden">
 	    <center><iframe src="http://rcm-na.amazon-adsystem.com/e/cm?t=mechakeyboadv-20&o=1&p=48&l=ur1&category=audible&banner=0JYEMDNC49A58GM3J902&f=ifr&linkID=BJCNPQMEX5SGEFHA" style="width:728px;height:90px;overflow:hidden;border:none;margin:0;"></iframe></center>
 	    <div class="pull-right">
-	    	<a style="color:grey;" href="http://www.howlongtoreadthis.com/disclaimer.php">Disclaimer</a>
+	    	<a class="turns-green" style="color:grey;" href="http://www.howlongtoreadthis.com/disclaimer.php">Disclaimer</a>
 	    </div>
     	</div>
 </div>
