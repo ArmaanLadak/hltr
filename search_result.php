@@ -78,7 +78,7 @@ if(isset($_GET['search_keyword'])){
 					<a href="book_details.php?asin=<?php echo ((string)$arrBooksInfo->ASIN); ?>&ean=<?php echo ((string)$arrBooksInfo->ItemAttributes->EAN); ?>">
 							<div class="col-sm-4">
 								<div class="well well-small" style="height:550px">
-									<center><img class="img-responsive" style="max-height:70%" src="<?php echo $arrBooksInfo->LargeImage->URL; ?>" /></center>
+									<center><img class="img-responsive" style="max-height:70%;max-height:55vh" src="<?php echo $arrBooksInfo->LargeImage->URL; ?>" /></center>
 									<h4>
 										<?php if(strlen($arrBooksInfo->ItemAttributes->Title)<70){
 											echo $arrBooksInfo->ItemAttributes->Title;
