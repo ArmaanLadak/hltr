@@ -137,7 +137,7 @@ function curPageURL() {
 	        <div class="modal-body">
 				<p id="modalMessage"></p>
 				<br>
-				<div class="fb-share-button" data-href="http://www.howlongtoreadthis.com/book_details.php?asin=B012HJK542&ean=" data-layout="box_count"></div>
+				<div class="fb-share-button" data-href="<?php echo 'http://' . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI']; ?>" data-layout="box_count"></div>
 				<script type="text/javascript" src="//www.redditstatic.com/button/button3.js"></script>
 				<a href="//www.pinterest.com/pin/create/button/" data-pin-do="buttonBookmark"  data-pin-color="red" data-pin-height="28"><img src="//assets.pinterest.com/images/pidgets/pinit_fg_en_rect_red_28.png" /></a>
 			<!-- Please call pinit.js only once per page -->
